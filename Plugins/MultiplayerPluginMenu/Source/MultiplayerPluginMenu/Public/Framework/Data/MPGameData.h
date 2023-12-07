@@ -44,7 +44,7 @@ public:
 	UPROPERTY(BlueprintReadWrite,EditAnywhere,Category=GameData)
 	FText GameDesc;
 
-	UPROPERTY(BlueprintReadWrite,EditAnywhere,Category=GameData)
+	UPROPERTY(BlueprintReadWrite,EditAnywhere,Category = GameData)
 	TSoftClassPtr<UTexture2D> GameImage;
 
 	UPROPERTY(BlueprintReadWrite,EditAnywhere,Category=GameData)
