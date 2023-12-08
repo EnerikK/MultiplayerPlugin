@@ -22,7 +22,7 @@ public:
 	FPrimaryAssetId GetGameDataAsset() const {return GameDataId;}
 
 	UPROPERTY(BlueprintReadOnly,meta=(BindWidget))
-	UMPButtonGameWidget GameButtonWidget;
+	UMPButtonGameWidget* GameButtonWidget;
 	
 	FOnGameSelectDisplayDelegate OnGameDisplaySelected;
 
