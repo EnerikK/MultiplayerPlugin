@@ -88,7 +88,7 @@ void UMPGameDisplayListWidget::OnGameListCreation()
 	{
 		if(UMPGameDisplayWidget* DisplayWidget = Cast<UMPGameDisplayWidget>(DisplayWidgets[i]))
 		{
-			DisplayWidget->OnGameDisplaySelected.AddDynamic(this,*UMPGameDisplayListWidget::OnGameDisplaySelection);
+			DisplayWidget->OnGameDisplaySelected.AddDynamic(this,&UMPGameDisplayListWidget::OnGameDisplaySelection);
 			
 		}
 	}

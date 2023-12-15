@@ -8,8 +8,6 @@
 
 class UCommonSession_HostSessionRequest;
 struct FOnlineResultInformation;
-enum class ECommonUserPrivilege;
-enum class ECommonUserOnlineContext : uint8;
 class UCommonUserInfo;
 enum class ECommonSessionOnlineMode : uint8;
 class UMPButtonBaseWidget;
